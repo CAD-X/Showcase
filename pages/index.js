@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import "../index.scss";
 
 const Index = () => (
   <div>
@@ -6,7 +7,7 @@ const Index = () => (
       <a title="About Page">What is Components as Data?</a>
     </Link>
     <div className="jumbotron">
-        <h1 style={{ color: 'red' }}>ProtoCAD</h1>
+        <h1>ProtoCAD</h1>
         <p>The first dedicated project for incorporating components as data</p>
     </div>
     <div className="how-to-prototyping">
@@ -17,13 +18,13 @@ const Index = () => (
     </div>
 
     <div className="contributors">
-      {/* photo and github */}
+      {/* photo, github link, bio */}
       <h3>Contributors</h3>
-      <p>Jason Lee</p>
-      <p>Kassandra Meyer</p>
-      <p>Benjamin Morrison</p>
-      <p>Suramya Sekhri</p>
-      <p>Eric Natividad</p>
+      <p><a href="https://github.com/jasonlee1245">Jason Lee</a></p>
+      <p><a href="https://github.com/kassanj">Kassandra Meyer</a></p>
+      <p><a href="https://github.com/newbenhd">Benjamin Morrison</a></p>
+      <p><a href="https://github.com/EricNatividad">Eric Natividad</a></p>
+      <p><a href="https://github.com/suramyasekhri">Suramya Sekhri</a></p>
     </div>
 
     <div className="footer">

@@ -93,6 +93,17 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./index.scss":
+/*!********************!*\
+  !*** ./index.scss ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/map.js":
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/map.js ***!
@@ -1794,139 +1805,174 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.scss */ "./index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/kassandram/Codesmith/pc-showcase/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 const Index = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 5
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/components-as-data",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 6
   },
   __self: undefined
 }, __jsx("a", {
   title: "About Page",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 7
   },
   __self: undefined
 }, "What is Components as Data?")), __jsx("div", {
   className: "jumbotron",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 9
   },
   __self: undefined
 }, __jsx("h1", {
-  style: {
-    color: 'red'
-  },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 10
   },
   __self: undefined
 }, "ProtoCAD"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 11
   },
   __self: undefined
 }, "The first dedicated project for incorporating components as data")), __jsx("div", {
   className: "how-to-prototyping",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }, "prototyping tool")), __jsx("div", {
   className: "how-to-module",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 }, "npm module")), __jsx("div", {
   className: "contributors",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("h3", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 22
   },
   __self: undefined
 }, "Contributors"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
-}, "Jason Lee"), __jsx("p", {
+}, __jsx("a", {
+  href: "https://github.com/jasonlee1245",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
   },
   __self: undefined
-}, "Kassandra Meyer"), __jsx("p", {
+}, "Jason Lee")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 24
   },
   __self: undefined
-}, "Benjamin Morrison"), __jsx("p", {
+}, __jsx("a", {
+  href: "https://github.com/kassanj",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "Kassandra Meyer")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
-}, "Suramya Sekhri"), __jsx("p", {
+}, __jsx("a", {
+  href: "https://github.com/newbenhd",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "Benjamin Morrison")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26
   },
   __self: undefined
-}, "Eric Natividad")), __jsx("div", {
-  className: "footer",
+}, __jsx("a", {
+  href: "https://github.com/EricNatividad",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 26
   },
   __self: undefined
-}, __jsx("p", {
+}, "Eric Natividad")), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "https://github.com/suramyasekhri",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "Suramya Sekhri"))), __jsx("div", {
+  className: "footer",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 30
   },
   __self: undefined
-}, "ProtoCAD is Open Source"), __jsx("p", {
+}, __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
+  },
+  __self: undefined
+}, "ProtoCAD is Open Source"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
   },
   __self: undefined
 }, "Available for download")));
