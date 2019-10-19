@@ -77,8 +77,6 @@ p {
 }
 
 footer {
-  // display: flex;
-  // align-items: center;
   svg {
     margin-top: 5px;
     margin-left: auto;
@@ -91,4 +89,29 @@ footer {
     padding-top: 0;
     font-size: 12px;
   }
+}
+
+
+@media all and (max-width: 1024px) {
+
+}
+
+@media all and (max-width: 839px) {
+  #jumbotron .heading-container {
+    margin: 100px 0px;
+  }
+  #contributors .bio-container {
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, 100%);
+    padding: 0;
+    margin: 0;
+  }
+  #contributors .single-contributor {
+
+  }
+
+}
+
+@media all and (max-width: 480px) {
+
 }

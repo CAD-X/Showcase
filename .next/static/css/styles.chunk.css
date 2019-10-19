@@ -73,5 +73,13 @@ footer p {
   padding-top: 0;
   font-size: 12px; }
 
+@media all and (max-width: 839px) {
+  #jumbotron .heading-container {
+    margin: 100px 0px; }
+  #contributors .bio-container {
+    display: grid;
+    padding: 0;
+    margin: 0; } }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
