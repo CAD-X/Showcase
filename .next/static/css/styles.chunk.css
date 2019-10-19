@@ -76,8 +76,10 @@ footer p {
 @media all and (max-width: 839px) {
   #jumbotron .heading-container {
     margin: 100px 0px; }
+  #contributors {
+    height: 1000px; }
   #contributors .bio-container {
-    display: grid;
+    display: block;
     padding: 0;
     margin: 0; } }
 

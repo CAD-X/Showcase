@@ -100,16 +100,14 @@ footer {
   #jumbotron .heading-container {
     margin: 100px 0px;
   }
+  #contributors {
+    height: 1000px;
+  }
   #contributors .bio-container {
-    display: grid;
-    // grid-template-columns: repeat(auto-fit, 100%);
+    display: block;
     padding: 0;
     margin: 0;
   }
-  #contributors .single-contributor {
-
-  }
-
 }
 
 @media all and (max-width: 480px) {
