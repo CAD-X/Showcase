@@ -24,10 +24,44 @@ p {
 
 #demo {
   width: 100%;
-  height: 100vh;
   padding: 100px;
   h1 {
     text-align: center;
+  }
+  #githubStar {
+    text-align: center;
+    .github-button {
+      iframe {
+        position: relative;
+        left: 43px;
+      }
+    }
+  }
+}
+
+#aboutWrapper {
+  margin: 80px;
+  .about-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px auto;
+    .about-details {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      // margin-right: 2rem;
+      // margin-left: 2rem;
+      justify-content: center;
+    }
+    .about-details.left {
+      margin-left: 2rem;
+    }
+    .about-details.right {
+      margin-right: 2rem;
+    }
+    .about-image > img {
+      max-width: 520px;
+    }
   }
 }
 
