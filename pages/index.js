@@ -12,18 +12,18 @@ const Index = () => (
       <div className="heading-container">
        <Logo />
        <h1>ProtoCAD</h1>
-       <p>An open source prototyping tool that allows developers to build their component structure and preview the data via GraphQL queries.</p>
+       <p>A prototyping tool dedicated to building components as data.</p>
       </div>
     </div>
-    
+
     <div id="demo">
       <h1>Prototyping Tool</h1>
 
       <div id="githubStar">
-        <p>Star us on Github</p>
+        <p>This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github</p>
        <div className="github-button">
         <iframe
-          src='https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large'
+          src='https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large&count=true'
           frameBorder='0'
           scrolling='0'
           width='160px'
@@ -36,41 +36,41 @@ const Index = () => (
       <div className="about-container">
         <div className="about-details right">
           <h2>Design UI components structure</h2>
-          <p>Upload a web design of your choice to begin prototyping.</p>
+          <p>Build your project's componenet structure by adding props and making associations.</p>
         </div>
         <div className="about-image">
-          <img src="/demo.png" />
+          <img src="/build-ui.gif" />
         </div>
       </div>
 
 
       <div className="about-container">
         <div className="about-image">
-          <img src="/demo.png" />
+          <img src="/schema.gif" />
         </div>
         <div className="about-details left">
           <h2>Convert to a GraphQL schema</h2>
-          <p>Upload a web design of your choice to begin prototyping.</p>
+          <p>Automatically convert your component tree into a GraphQl schema at the click of a button.</p>
         </div>
       </div>
 
       <div className="about-container">
         <div className="about-details right">
           <h2>Add resolvers and configure queries</h2>
-          <p>Upload a web design of your choice to begin prototyping.</p>
+          <p>Customize your GraphQL queries and resolvers to prepare for data fetching.</p>
         </div>
         <div className="about-image">
-          <img src="/demo.png" />
+          <img src="/resolver.gif" />
         </div>
       </div>
 
       <div className="about-container">
         <div className="about-image">
-          <img src="/demo.png" />
+          <img src="/query.gif" />
         </div>
         <div className="about-details left">
           <h2>Preview data</h2>
-          <p>Upload a web design of your choice to begin prototyping.</p>
+          <p>And finally, write the proper queries and specifications to preview the data within your component tree structure.</p>
         </div>
       </div>
     </div>

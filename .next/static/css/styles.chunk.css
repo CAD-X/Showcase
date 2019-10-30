@@ -22,14 +22,12 @@ p {
 
 #demo {
   width: 100%;
-  padding: 100px; }
+  padding: 100px;
+  background-color: #f5f5f5; }
   #demo h1 {
     text-align: center; }
   #demo #githubStar {
     text-align: center; }
-    #demo #githubStar .github-button iframe {
-      position: relative;
-      left: 43px; }
 
 #aboutWrapper {
   margin: 80px; }

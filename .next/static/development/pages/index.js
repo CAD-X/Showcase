@@ -3693,7 +3693,7 @@ var Index = function Index() {
       lineNumber: 15
     },
     __self: this
-  }, "An open source prototyping tool that allows developers to build their component structure and preview the data via GraphQL queries."))), __jsx("div", {
+  }, "A prototyping tool dedicated to building components as data."))), __jsx("div", {
     id: "demo",
     __source: {
       fileName: _jsxFileName,
@@ -3719,7 +3719,7 @@ var Index = function Index() {
       lineNumber: 23
     },
     __self: this
-  }, "Star us on Github"), __jsx("div", {
+  }, "This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github"), __jsx("div", {
     className: "github-button",
     __source: {
       fileName: _jsxFileName,
@@ -3727,7 +3727,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("iframe", {
-    src: "https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large",
+    src: "https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large&count=true",
     frameBorder: "0",
     scrolling: "0",
     width: "160px",
@@ -3770,7 +3770,7 @@ var Index = function Index() {
       lineNumber: 39
     },
     __self: this
-  }, "Upload a web design of your choice to begin prototyping.")), __jsx("div", {
+  }, "Build your project's componenet structure by adding props and making associations.")), __jsx("div", {
     className: "about-image",
     __source: {
       fileName: _jsxFileName,
@@ -3778,7 +3778,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("img", {
-    src: "/demo.png",
+    src: "/build-ui.gif",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
@@ -3799,7 +3799,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("img", {
-    src: "/demo.png",
+    src: "/schema.gif",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
@@ -3824,7 +3824,7 @@ var Index = function Index() {
       lineNumber: 53
     },
     __self: this
-  }, "Upload a web design of your choice to begin prototyping."))), __jsx("div", {
+  }, "Automatically convert your component tree into a GraphQl schema at the click of a button."))), __jsx("div", {
     className: "about-container",
     __source: {
       fileName: _jsxFileName,
@@ -3850,7 +3850,7 @@ var Index = function Index() {
       lineNumber: 60
     },
     __self: this
-  }, "Upload a web design of your choice to begin prototyping.")), __jsx("div", {
+  }, "Customize your GraphQL queries and resolvers to prepare for data fetching.")), __jsx("div", {
     className: "about-image",
     __source: {
       fileName: _jsxFileName,
@@ -3858,7 +3858,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("img", {
-    src: "/demo.png",
+    src: "/resolver.gif",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
@@ -3879,7 +3879,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("img", {
-    src: "/demo.png",
+    src: "/query.gif",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69
@@ -3904,7 +3904,7 @@ var Index = function Index() {
       lineNumber: 73
     },
     __self: this
-  }, "Upload a web design of your choice to begin prototyping."))))), __jsx("div", {
+  }, "And finally, write the proper queries and specifications to preview the data within your component tree structure."))))), __jsx("div", {
     id: "contributors",
     __source: {
       fileName: _jsxFileName,
