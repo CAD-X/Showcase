@@ -120,8 +120,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* harmony default export */ __webpack_exports__["default"] = (() => __jsx("svg", {
   viewBox: "0 -13 511.99989 511",
-  width: "50",
-  height: "50",
+  width: "120",
+  height: "120",
   xmlns: "http://www.w3.org/2000/svg",
   __source: {
     fileName: _jsxFileName,
@@ -281,7 +281,7 @@ const Index = () => __jsx("div", {
     lineNumber: 20
   },
   __self: undefined
-}, "Prototyping Tool"), __jsx("div", {
+}, "How it works"), __jsx("div", {
   id: "githubStar",
   __source: {
     fileName: _jsxFileName,
@@ -294,7 +294,7 @@ const Index = () => __jsx("div", {
     lineNumber: 23
   },
   __self: undefined
-}, "This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github"), __jsx("div", {
+}, "This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github."), __jsx("div", {
   className: "github-button",
   __source: {
     fileName: _jsxFileName,

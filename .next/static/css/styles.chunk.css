@@ -15,10 +15,13 @@ p {
   background-color: #dee8e6;
   width: 100%;
   height: 100vh;
-  padding: 80px; }
+  padding: 120px; }
   #jumbotron .heading-container {
-    margin: 150px;
+    margin: 110px;
     text-align: center; }
+    #jumbotron .heading-container h1 {
+      padding-top: 15px;
+      font-size: 50px; }
 
 #demo {
   width: 100%;
