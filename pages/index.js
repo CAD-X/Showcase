@@ -17,10 +17,10 @@ const Index = () => (
     </div>
 
     <div id="demo">
-      <h1>Prototyping Tool</h1>
+      <h1>How it works</h1>
 
       <div id="githubStar">
-        <p>This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github</p>
+        <p>This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github.</p>
        <div className="github-button">
         <iframe
           src='https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large&count=true'
