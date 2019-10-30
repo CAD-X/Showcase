@@ -268,7 +268,7 @@ const Index = () => __jsx("div", {
     lineNumber: 15
   },
   __self: undefined
-}, "The first dedicated project for incorporating components as data"))), __jsx("div", {
+}, "An open source prototyping tool that allows developers to build their component structure and preview the data via GraphQL queries."))), __jsx("div", {
   id: "demo",
   __source: {
     fileName: _jsxFileName,
@@ -507,7 +507,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("img", {
-  src: "/avatar.jpg",
+  src: "/jason.jpg",
   alt: "jason lee",
   __source: {
     fileName: _jsxFileName,
@@ -535,7 +535,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("img", {
-  src: "/avatar.jpg",
+  src: "/kassandra.jpg",
   alt: "kassandra meyer",
   __source: {
     fileName: _jsxFileName,
@@ -563,7 +563,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("img", {
-  src: "/avatar.jpg",
+  src: "/ben.jpg",
   alt: "benjamin morrison",
   __source: {
     fileName: _jsxFileName,
@@ -591,7 +591,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("img", {
-  src: "/avatar.jpg",
+  src: "/eric.jpg",
   alt: "eric natividad",
   __source: {
     fileName: _jsxFileName,
@@ -619,7 +619,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("img", {
-  src: "/avatar.jpg",
+  src: "/suri.jpg",
   alt: "suramya sekhri",
   __source: {
     fileName: _jsxFileName,

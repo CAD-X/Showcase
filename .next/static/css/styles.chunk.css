@@ -42,6 +42,9 @@ p {
       display: flex;
       flex-direction: column;
       justify-content: center; }
+      #aboutWrapper .about-container .about-details h2 {
+        text-decoration: underline;
+        text-decoration-color: #ff6c6c; }
     #aboutWrapper .about-container .about-details.left {
       margin-left: 2rem; }
     #aboutWrapper .about-container .about-details.right {
@@ -74,11 +77,14 @@ p {
       text-decoration: none; }
       #contributors .single-contributor a:visited {
         color: black; }
+      #contributors .single-contributor a:hover {
+        text-decoration: underline;
+        text-decoration-color: #ff6c6c; }
     #contributors .single-contributor p {
       text-align: center; }
   #contributors img {
     border-radius: 50%;
-    width: 60px;
+    width: 90px;
     margin-left: auto;
     margin-right: auto;
     display: block; }
