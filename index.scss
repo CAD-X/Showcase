@@ -172,3 +172,18 @@ footer {
     margin: 0;
   }
 }
+
+@keyframes rain {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animate {
+  animation-name: rain;
+  animation-duration: 4s;
+}

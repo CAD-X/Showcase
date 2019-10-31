@@ -10,8 +10,8 @@ const Index = () => (
       <script async defer src="https://buttons.github.io/buttons.js"></script>
     </Head>
     <div id="jumbotron">
-      <div className="heading-container">
-       <Logo />
+      <div className="heading-container animate">
+       <Logo/>
        <h1>ProtoCAD</h1>
        <p>A prototyping tool to help visualize GraphQL query results on component structures</p>
       </div>
