@@ -3777,7 +3777,7 @@ var Index = function Index() {
       lineNumber: 16
     },
     __self: this
-  }, "A prototyping tool dedicated to building components as data."))), __jsx("div", {
+  }, "A prototyping tool dedicated to building components as data"))), __jsx("div", {
     id: "demo",
     __source: {
       fileName: _jsxFileName,

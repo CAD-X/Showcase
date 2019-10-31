@@ -350,7 +350,7 @@ const Index = () => __jsx("div", {
     lineNumber: 16
   },
   __self: undefined
-}, "A prototyping tool dedicated to building components as data."))), __jsx("div", {
+}, "A prototyping tool dedicated to building components as data"))), __jsx("div", {
   id: "demo",
   __source: {
     fileName: _jsxFileName,
