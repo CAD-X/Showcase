@@ -13,7 +13,7 @@ const Index = () => (
       <div className="heading-container">
        <Logo />
        <h1>ProtoCAD</h1>
-       <p>A prototyping tool dedicated to building components as data</p>
+       <p>A prototyping tool to help visualize GraphQL query results on component structures</p>
       </div>
     </div>
 
