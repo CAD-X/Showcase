@@ -106,20 +106,21 @@ footer p {
   #jumbotron {
     padding: 60px; }
   #jumbotron .heading-container {
-    margin: 130px 0px; }
+    margin: 150px 0px; }
   #demo {
-    padding: 20px; }
+    padding: 60px 20px 20px 20px; }
   #aboutWrapper {
     margin: 0px; }
     #aboutWrapper .about-container {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      margin: 50px auto; }
       #aboutWrapper .about-container .about-details {
         width: 100%;
         margin: 0px;
         padding: 0px; }
       #aboutWrapper .about-container .about-image img {
-        max-width: 340px; }
+        max-width: 100%; }
   #aboutWrapper .about-container .about-details.left {
     margin-top: 1rem;
     margin-left: 0rem;
