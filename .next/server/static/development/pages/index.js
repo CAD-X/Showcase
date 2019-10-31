@@ -350,7 +350,7 @@ const Index = () => __jsx("div", {
     lineNumber: 16
   },
   __self: undefined
-}, "A prototyping tool dedicated to building components as data"))), __jsx("div", {
+}, "A prototyping tool to help visualize GraphQL query results on component structures"))), __jsx("div", {
   id: "demo",
   __source: {
     fileName: _jsxFileName,
@@ -384,7 +384,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("iframe", {
-  src: "https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large&count=true",
+  src: "https://ghbtns.com/github-btn.html?user=oslabs-beta&repo=protocad&type=star&size=large&count=true",
   frameBorder: "0",
   scrolling: "0",
   width: "160px",

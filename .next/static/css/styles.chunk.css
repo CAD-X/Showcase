@@ -75,12 +75,10 @@ p {
       grid-column-end: 4; }
     #contributors .single-contributor a {
       color: black;
-      text-decoration: none; }
+      text-decoration: underline;
+      text-decoration-color: #ff6c6c; }
       #contributors .single-contributor a:visited {
         color: black; }
-      #contributors .single-contributor a:hover {
-        text-decoration: underline;
-        text-decoration-color: #ff6c6c; }
     #contributors .single-contributor p {
       text-align: center; }
   #contributors img {
