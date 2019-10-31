@@ -103,10 +103,33 @@ footer p {
   font-size: 12px; }
 
 @media all and (max-width: 839px) {
+  #jumbotron {
+    padding: 60px; }
   #jumbotron .heading-container {
-    margin: 100px 0px; }
+    margin: 130px 0px; }
+  #demo {
+    padding: 20px; }
+  #aboutWrapper {
+    margin: 0px; }
+    #aboutWrapper .about-container {
+      display: flex;
+      flex-direction: column; }
+      #aboutWrapper .about-container .about-details {
+        width: 100%;
+        margin: 0px;
+        padding: 0px; }
+      #aboutWrapper .about-container .about-image img {
+        max-width: 340px; }
+  #aboutWrapper .about-container .about-details.left {
+    margin-top: 1rem;
+    margin-left: 0rem;
+    text-align: center; }
+  #aboutWrapper .about-container .about-details.right {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    text-align: center; }
   #contributors {
-    height: 1000px; }
+    height: 1200px; }
   #contributors .bio-container {
     display: block;
     padding: 0;

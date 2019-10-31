@@ -29,7 +29,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1572478407765");
+            injectCss(link, link.href.split("?")[0] + "?unix=1572480364749");
           });
       }
     }
@@ -38,4 +38,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.52cae5bf354e7bef51b6.hot-update.js.map
+//# sourceMappingURL=styles.add7dd621796d310b6f8.hot-update.js.map
