@@ -1,5 +1,6 @@
 import "../index.scss";
 import Logo from '../logo.js';
+import FLogo from '../flogo.js';
 import Head from 'next/head';
 
 const Index = () => (
@@ -12,7 +13,7 @@ const Index = () => (
       <div className="heading-container">
        <Logo />
        <h1>ProtoCAD</h1>
-       <p>A prototyping tool dedicated to building components as data.</p>
+       <p>A prototyping tool dedicated to building components as data</p>
       </div>
     </div>
 
@@ -118,7 +119,7 @@ const Index = () => (
     </div>
 
     <footer>
-      <Logo />
+      <FLogo />
       <p>© 2019 ProtoCAD/OSLabs. All rights reserved.</p>
     </footer>
 </div>

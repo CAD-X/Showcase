@@ -93,6 +93,86 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./flogo.js":
+/*!******************!*\
+  !*** ./flogo.js ***!
+  \******************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/kassandram/Codesmith/pc-showcase/flogo.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("svg", {
+  viewBox: "0 -13 511.99989 511",
+  width: "50",
+  height: "50",
+  xmlns: "http://www.w3.org/2000/svg",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("path", {
+  d: "m442.246094 396.496094-185.996094 80v-226l185.996094-79.996094zm0 0",
+  fill: "#ff6c6c",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}), __jsx("path", {
+  d: "m256.25 90.5 185.996094 80-185.996094 79.996094-186-79.996094zm0 0",
+  fill: "#6eba7b",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}), __jsx("path", {
+  d: "m70.25 396.496094v-225.996094l186 79.996094v226zm0 0",
+  fill: "#a9def8",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}), __jsx("path", {
+  d: "m352 346.496094c-5.523438 0-10 4.480468-10 10 0 5.519531 4.476562 10 10 10 5.519531 0 10-4.480469 10-10 0-5.519532-4.480469-10-10-10zm0 0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}), __jsx("path", {
+  d: "m266 170.5c0-5.523438-4.480469-10-10-10s-10 4.476562-10 10c0 5.519531 4.480469 10 10 10s10-4.480469 10-10zm0 0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}), __jsx("path", {
+  d: "m160 366.496094c5.519531 0 10-4.480469 10-10 0-5.519532-4.480469-10-10-10s-10 4.480468-10 10c0 5.519531 4.480469 10 10 10zm0 0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}), __jsx("path", {
+  d: "m506.058594 414.015625-54.0625-24.019531v-219.496094c0-3.960938-2.371094-7.628906-6.140625-9.230469l-179.855469-77.355469v-73.414062c0-5.523438-4.480469-10-10-10-5.523438 0-10 4.476562-10 10v73.414062l-179.855469 77.355469c-3.574219 1.484375-6.140625 5.105469-6.140625 9.230469v219.496094l-54.0625 24.019531c-5.046875 2.246094-7.320312 8.152344-5.078125 13.199219 2.226563 5.015625 8.117188 7.335937 13.199219 5.078125l56.003906-24.882813 181.984375 78.269532c2.40625 1.035156 5.347657 1.097656 7.902344 0l181.980469-78.269532 56.003906 24.882813c5.101562 2.265625 10.980469-.082031 13.199219-5.078125 2.242187-5.046875-.03125-10.953125-5.078125-13.199219zm-260.058594-308.328125v24.8125c0 5.519531 4.476562 10 10 10 5.519531 0 10-4.480469 10-10v-24.8125l150.6875 64.8125-160.6875 69.113281-160.6875-69.113281zm-113.410156 262.996094c-2.246094-5.046875-8.15625-7.316406-13.199219-5.078125l-39.390625 17.503906v-195.425781l166 71.398437v204.226563l-151.035156-64.960938 32.546875-14.460937c5.046875-2.246094 7.320312-8.15625 5.078125-13.203125zm133.410156 92.625v-204.226563l165.996094-71.398437v195.425781l-39.386719-17.5c-5.050781-2.242187-10.957031.027344-13.199219 5.078125-2.242187 5.046875.03125 10.953125 5.078125 13.199219l32.546875 14.460937zm0 0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+})));
+
+/***/ }),
+
 /***/ "./index.scss":
 /*!********************!*\
   !*** ./index.scss ***!
@@ -198,8 +278,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index.scss */ "./index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _logo_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../logo.js */ "./logo.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _flogo_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../flogo.js */ "./flogo.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/kassandram/Codesmith/pc-showcase/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -207,16 +288,17 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Index = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 7
   },
   __self: undefined
-}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
   },
   __self: undefined
 }, __jsx("link", {
@@ -224,7 +306,7 @@ const Index = () => __jsx("div", {
   href: "https://fonts.googleapis.com/css?family=Work+Sans&display=swap",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 9
   },
   __self: undefined
 }), __jsx("script", {
@@ -233,72 +315,72 @@ const Index = () => __jsx("div", {
   src: "https://buttons.github.io/buttons.js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 10
   },
   __self: undefined
 })), __jsx("div", {
   id: "jumbotron",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("div", {
   className: "heading-container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx(_logo_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }), __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
 }, "ProtoCAD"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
-}, "A prototyping tool dedicated to building components as data."))), __jsx("div", {
+}, "A prototyping tool dedicated to building components as data"))), __jsx("div", {
   id: "demo",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 21
   },
   __self: undefined
 }, "How it works"), __jsx("div", {
   id: "githubStar",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }, "This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github."), __jsx("div", {
   className: "github-button",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 25
   },
   __self: undefined
 }, __jsx("iframe", {
@@ -309,201 +391,201 @@ const Index = () => __jsx("div", {
   height: "30px",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 26
   },
   __self: undefined
 }))), __jsx("div", {
   id: "aboutWrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 36
   },
   __self: undefined
 }, __jsx("div", {
   className: "about-container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 37
   },
   __self: undefined
 }, __jsx("div", {
   className: "about-details right",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 38
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 39
   },
   __self: undefined
 }, "Design UI components structure"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 40
   },
   __self: undefined
 }, "Build your project's componenet structure by adding props and making associations.")), __jsx("div", {
   className: "about-image",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 42
   },
   __self: undefined
 }, __jsx("img", {
   src: "/build-ui.gif",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 43
   },
   __self: undefined
 }))), __jsx("div", {
   className: "about-container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 48
   },
   __self: undefined
 }, __jsx("div", {
   className: "about-image",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48
+    lineNumber: 49
   },
   __self: undefined
 }, __jsx("img", {
   src: "/schema.gif",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49
+    lineNumber: 50
   },
   __self: undefined
 })), __jsx("div", {
   className: "about-details left",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51
+    lineNumber: 52
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52
+    lineNumber: 53
   },
   __self: undefined
 }, "Convert to a GraphQL schema"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 53
+    lineNumber: 54
   },
   __self: undefined
 }, "Automatically convert your component tree into a GraphQl schema at the click of a button."))), __jsx("div", {
   className: "about-container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 57
+    lineNumber: 58
   },
   __self: undefined
 }, __jsx("div", {
   className: "about-details right",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 58
+    lineNumber: 59
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 59
+    lineNumber: 60
   },
   __self: undefined
 }, "Add resolvers and configure queries"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 60
+    lineNumber: 61
   },
   __self: undefined
 }, "Customize your GraphQL queries and resolvers to prepare for data fetching.")), __jsx("div", {
   className: "about-image",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 62
+    lineNumber: 63
   },
   __self: undefined
 }, __jsx("img", {
   src: "/resolver.gif",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63
+    lineNumber: 64
   },
   __self: undefined
 }))), __jsx("div", {
   className: "about-container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 67
+    lineNumber: 68
   },
   __self: undefined
 }, __jsx("div", {
   className: "about-image",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 68
+    lineNumber: 69
   },
   __self: undefined
 }, __jsx("img", {
   src: "/query.gif",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 69
+    lineNumber: 70
   },
   __self: undefined
 })), __jsx("div", {
   className: "about-details left",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 71
+    lineNumber: 72
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 72
+    lineNumber: 73
   },
   __self: undefined
 }, "Preview data"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 73
+    lineNumber: 74
   },
   __self: undefined
 }, "And finally, write the proper queries and specifications to preview the data within your component tree structure."))))), __jsx("div", {
   id: "contributors",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 80
+    lineNumber: 81
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 81
+    lineNumber: 82
   },
   __self: undefined
 }, "Contributors"), __jsx("div", {
   className: "bio-container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 82
+    lineNumber: 83
   },
   __self: undefined
 }, __jsx("div", {
   className: "single-contributor",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 83
+    lineNumber: 84
   },
   __self: undefined
 }, __jsx("img", {
@@ -511,27 +593,27 @@ const Index = () => __jsx("div", {
   alt: "jason lee",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 84
+    lineNumber: 85
   },
   __self: undefined
 }), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 85
+    lineNumber: 86
   },
   __self: undefined
 }, __jsx("a", {
   href: "https://github.com/jasonlee1245",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 86
+    lineNumber: 87
   },
   __self: undefined
 }, "Jason Lee"))), __jsx("div", {
   className: "single-contributor",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 90
+    lineNumber: 91
   },
   __self: undefined
 }, __jsx("img", {
@@ -539,27 +621,27 @@ const Index = () => __jsx("div", {
   alt: "kassandra meyer",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 91
+    lineNumber: 92
   },
   __self: undefined
 }), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 92
+    lineNumber: 93
   },
   __self: undefined
 }, __jsx("a", {
   href: "https://github.com/kassanj",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 93
+    lineNumber: 94
   },
   __self: undefined
 }, "Kassandra Meyer"))), __jsx("div", {
   className: "single-contributor",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 97
+    lineNumber: 98
   },
   __self: undefined
 }, __jsx("img", {
@@ -567,27 +649,27 @@ const Index = () => __jsx("div", {
   alt: "benjamin morrison",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 98
+    lineNumber: 99
   },
   __self: undefined
 }), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 99
+    lineNumber: 100
   },
   __self: undefined
 }, __jsx("a", {
   href: "https://github.com/newbenhd",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 100
+    lineNumber: 101
   },
   __self: undefined
 }, "Benjamin Morrison"))), __jsx("div", {
   className: "single-contributor",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 104
+    lineNumber: 105
   },
   __self: undefined
 }, __jsx("img", {
@@ -595,27 +677,27 @@ const Index = () => __jsx("div", {
   alt: "eric natividad",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 105
+    lineNumber: 106
   },
   __self: undefined
 }), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 106
+    lineNumber: 107
   },
   __self: undefined
 }, __jsx("a", {
   href: "https://github.com/EricNatividad",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 107
+    lineNumber: 108
   },
   __self: undefined
 }, "Eric Natividad"))), __jsx("div", {
   className: "single-contributor",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 111
+    lineNumber: 112
   },
   __self: undefined
 }, __jsx("img", {
@@ -623,38 +705,38 @@ const Index = () => __jsx("div", {
   alt: "suramya sekhri",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 112
+    lineNumber: 113
   },
   __self: undefined
 }), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 113
+    lineNumber: 114
   },
   __self: undefined
 }, __jsx("a", {
   href: "https://github.com/suramyasekhri",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 114
+    lineNumber: 115
   },
   __self: undefined
 }, "Suramya Sekhri"))))), __jsx("footer", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 120
+    lineNumber: 121
   },
   __self: undefined
-}, __jsx(_logo_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_flogo_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 121
+    lineNumber: 122
   },
   __self: undefined
 }), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 122
+    lineNumber: 123
   },
   __self: undefined
 }, "\xA9 2019 ProtoCAD/OSLabs. All rights reserved.")));
