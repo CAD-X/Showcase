@@ -24,7 +24,7 @@ const Index = () => (
         <p>This project is currently in beta. Feel free to drop us a line if you would like to contribute or star us on Github.</p>
        <div className="github-button">
         <iframe
-          src='https://ghbtns.com/github-btn.html?user=cad-x&repo=protocad&type=star&size=large&count=true'
+          src='https://ghbtns.com/github-btn.html?user=oslabs-beta&repo=protocad&type=star&size=large&count=true'
           frameBorder='0'
           scrolling='0'
           width='160px'
