@@ -6,9 +6,6 @@ import Head from 'next/head';
 
 const Index = () => {
   const howRef = useRef(null);
-  useEffect(() => {
-
-  }, []);
   const toHow = () => {
     window.scrollTo({
       top: howRef.current.offsetTop,
@@ -48,7 +45,7 @@ const Index = () => {
 
         <div id="aboutWrapper">
           <div className="about-container">
-            <div className="about-details right">
+            <div className="about-details right ui-build">
               <h2>Design UI components structure</h2>
               <p>Build your project's componenet structure by adding props and making associations.</p>
             </div>
