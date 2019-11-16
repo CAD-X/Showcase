@@ -6,6 +6,10 @@ import Head from 'next/head';
 const Index = () => (
   <div>
     <Head>
+      <meta property='og:title' content='ProtoCAD' />
+      <meta property='og:image' content='/protocad.png' />
+      <meta property='og:description' content='A prototyping tool to help visualize GraphQL query results on component structures' />
+      <meta property='og:url' content='https://protocad.io/' />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" />
       <script async defer src="https://buttons.github.io/buttons.js"></script>
     </Head>
